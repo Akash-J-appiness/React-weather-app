@@ -19,7 +19,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -35,4 +35,35 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+input.input {
+  padding: 5px;
+  font-size: 22px;
+  margin: 5px;
+  margin-top: 0px;
+  border-radius: 5px;
+  border: none;
+  font-weight: 700;
+}
+button.button {
+  font-size: 22px;
+  padding: 6px;
+  border-radius: 10px;
+  font-weight: 700;
+}
+button.button:hover {
+  color: white;
+  background-color: #282c34;
+}
+
+.h1col{
+  color: white;
+}
+.info {
+  padding: 6px;
+  margin: 20px 2px;
+  border-radius: 30px;
+  color: white;
+  border: 2px solid white;
 }
